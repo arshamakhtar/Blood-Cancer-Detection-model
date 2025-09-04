@@ -1,0 +1,45 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+conda/
+anaconda3/
+anaconda_projects/
+data/
+
+# Ignore data (large dataset should not go to git)
+data/
+*.csv
+*.tsv
+*.txt
+*.h5
+*.npz
+*.npy
+*.pkl
+*.joblib
+
+# Ignore compiled logs and outputs
+*.log
+*.out
+*.err
+
+# Ignore VSCode and IDE configs
+.vscode/
+.idea/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
